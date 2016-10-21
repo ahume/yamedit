@@ -1,0 +1,7 @@
+test:
+  yaml:
+    # A comment
+    structure: value2 # A comment
+  # A comment
+  other:
+    structure: value3 # A comment

@@ -1,0 +1,15 @@
+test:
+  # A comment
+  yaml:
+    # A comment
+    - bob # A comment
+    - value # A comment
+    - more:
+      # A comment
+      structure: value # A comment
+      other:
+        structure: value2 # A comment
+  another:
+    # A comment
+    - bob
+    - value

@@ -1,0 +1,19 @@
+{
+  "name": "yamedit",
+  "version": "0.0.1",
+  "description": "Read and edit YAML files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "author": "Andy Hume",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.6.1",
+    "lodash.get": "^4.4.2",
+    "lodash.memoize": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
