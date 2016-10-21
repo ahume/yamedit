@@ -38,10 +38,10 @@ function edit (YAML, path, newValue) {
   re = new RegExp(finalProp + ' *: *' + currentValue, 'g');
 
   var matchToken = 'matchToken' + Math.random().toString(36);
-  var matchCount = 0;
+  var matchIndex = 0;
 
   tokenisedYAML = YAML.replace(re, function (match, p1, offset) {
-    return finalProp + ': ' + matchToken + matchCount++;
+    return finalProp + ': ' + matchToken + matchIndex++;
   });
 
   // Find token that matches original path.
